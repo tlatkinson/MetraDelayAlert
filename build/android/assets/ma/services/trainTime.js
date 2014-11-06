@@ -1,0 +1,1 @@
+!function(){"use strict";{var e="jcr:content/trainTracker.get_train_data.json",t=require("ma/service/ajaxRequest").ajaxRequest;require("ma/service/httpMethod").httpMethod}exports.getMetraTrainsByTime=function(r,a){t({url:e+"?line=UP-W&origin=OAKPARK&destination=OTC&ck="+r,success:a})}}();

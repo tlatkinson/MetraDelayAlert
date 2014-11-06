@@ -1,0 +1,1 @@
+!function(){"use strict";var a=require("ma/maData").maData(),e=require("ma/templates/metraAlertWindow").metraAlertWindow(a);e.open(),a.initialize(e)}();

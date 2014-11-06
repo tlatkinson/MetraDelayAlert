@@ -1,0 +1,1 @@
+exports.metraAlertWindow=function(){"use strict";var e,t,r;return e=Titanium.UI.createWindow({title:"Metra Delay Alert",backgroundColor:"#fff",layout:"vertical",exitOnClose:!0,height:Ti.UI.FILL,width:Ti.UI.FILL}),r=Ti.UI.createView({width:Ti.UI.FILL,height:"85%",layout:"vertical"}),e.add(r),t=Titanium.UI.createTableView({layout:"vertical",height:Ti.UI.SIZE}),r.add(t),e.add(r),e};

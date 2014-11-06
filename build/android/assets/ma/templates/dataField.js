@@ -1,0 +1,1 @@
+exports.dataField=function(e){"use strict";var t,r,a,i="50%",o=18;return t=Ti.UI.createView({width:Ti.UI.FILL,height:Ti.UI.SIZE,layout:"horizontal",top:"1%"}),r=Ti.UI.createLabel({text:e.value,color:"#000"}),a=Ti.UI.createLabel({text:e.name+":",left:"5%",color:"#000",font:{fontSize:o},width:i}),t.add(a),t.add(r),t};
